@@ -11,3 +11,10 @@ function somar
         $resultado = $a + $b
         Write-Host "A resposta é $resultado"
     }
+# Subtraindo
+function subtrair
+    {
+        param($a, $b)
+        $resultado = $a - $b
+        Write-Host "A resposta é $resultado"
+    }
